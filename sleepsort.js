@@ -7,7 +7,6 @@ sleepsort(arr);
 
 function sleepsort(arr) {
 
-
     arr.forEach( function(n) {
         setTimeout( function() {
             console.log(element); }, n * 500);
