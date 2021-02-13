@@ -8,8 +8,8 @@ sleepsort(arr);
 function sleepsort(arr) {
 
 
-    arr.forEach( function(element) {
+    arr.forEach( function(n) {
         setTimeout( function() {
-            console.log(element); }, element * 500);
+            console.log(element); }, n * 500);
     });
 }
